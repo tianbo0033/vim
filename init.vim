@@ -1,3 +1,6 @@
+" Plugins
+source ./plugins/init.vim
+
 " leader key
 let g:mapleader = "\<Space>"
 
