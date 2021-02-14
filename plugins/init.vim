@@ -18,6 +18,6 @@ call plug#end()
 " fzf
 source ~/.config/nvim/plugins/fzf.vim
 " NERDTree
-" open NERDTree
-nnoremap <silent> <leader>n :NERDTreeToggle<CR>
-nnoremap <silent> <leader>e :NERDTreeFind<CR>
+source ~/.config/nvim/plugins/nerdtree.vim
+" coc
+source ~/.config/nvim/plugins/coc.vim

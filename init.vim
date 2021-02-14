@@ -25,3 +25,5 @@ nnoremap <leader>w :w<CR>
 " <leader>q to close a buffer
 nnoremap <leader>q :close<CR>
 
+" line number
+set number
