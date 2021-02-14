@@ -1,5 +1,5 @@
 " Plugins
-source ~/.config/nvim/plugins/init.vim
+source ~/.config/nvim/plugins/plugins.vim
 
 " leader key
 let g:mapleader = "\<Space>"
@@ -21,4 +21,7 @@ inoremap jj <Esc>
 
 " saves
 nnoremap <leader>w :w<CR>
+
+" <leader>q to close a buffer
+nnoremap <leader>q :close<CR>
 
