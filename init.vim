@@ -1,5 +1,5 @@
 " Plugins
-source ~/.config/nvim/plugins/plugins.vim
+source ~/.config/nvim/plugins/init.vim
 
 " leader key
 let g:mapleader = "\<Space>"
