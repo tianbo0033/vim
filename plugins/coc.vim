@@ -1,3 +1,12 @@
+" extensions
+let g:coc_global_extensions = [
+	\ 'coc-tsserver',
+	\ 'coc-prettier',
+	\ 'coc-pairs',
+	\ 'coc-eslint',
+	\ 'coc-json',
+  \ ]
+" -------------------------------------------------------------------------------------
 " TextEdit might fail if hidden is not set.
 set hidden
 set nobackup

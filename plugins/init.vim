@@ -10,6 +10,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'jparise/vim-graphql'
+Plug 'kevinoid/vim-jsonc'
 " code completion
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 call plug#end()
@@ -21,3 +22,6 @@ source ~/.config/nvim/plugins/fzf.vim
 source ~/.config/nvim/plugins/nerdtree.vim
 " coc
 source ~/.config/nvim/plugins/coc.vim
+" syntax highlighting for large files
+autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
+autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
