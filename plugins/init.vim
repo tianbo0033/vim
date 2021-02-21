@@ -13,6 +13,8 @@ Plug 'jparise/vim-graphql'
 Plug 'kevinoid/vim-jsonc'
 " code completion
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+" colorscheme
+Plug 'altercation/vim-colors-solarized'
 call plug#end()
 
 " --------------------------------------------------------------------------------------

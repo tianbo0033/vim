@@ -2,7 +2,7 @@
 source ~/.config/nvim/plugins/init.vim
 
 " leader key
-let g:mapleader = "\<Space>"
+let g:mapleader = ","
 
 " Alt + hjkl to resize windows
 nnoremap <M-j>    :resize +2<CR>
@@ -35,3 +35,8 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set smarttab
+
+" colorscheme
+syntax enable
+set background=dark
+colorscheme solarized
